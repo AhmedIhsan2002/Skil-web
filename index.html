@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web2</title>
+    <link rel="stylesheet" href="css/carousel.min.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+     <link rel="stylesheet" href="css/dist.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-[rgb(247,247,248)]">
+
+    <!-- Section: Header -->
+    <header class="p-2 md:p-5">
+      <!-- Section: Alert -->
+      <a style="background-color: orange;" href="./courses.html" class=" w-full rounded-lg flex items-center justify-center gap-5 py-3 px-1">
+        <p class="text-white text-xs md:text-lg">Free Courses 🌟 Sale Ends Soon, Get It Now</p>
+        <img class="w-5 h-5" src="images/icons/arrow-right-white.svg" alt="arrow icon">
+      </a>
+  
+      <!-- Container: Wrapper -->
+      <div class="container">
+        <!-- Section: Navbar -->
+        <nav class="flex items-center justify-between py-6" aria-label="Global Navigation">
+          <div class="flex mr-10">
+            <a href="#" class="p-1.5">
+              <span class="sr-only">Skill Bridge Logo</span>
+              <img class="h-8 w-auto" src="images/icons/Logo.svg" alt="Site Logo">
+            </a>
+          </div>
+  
+          <!-- Mobile Menu Button -->
+          <div class="flex lg:hidden ml-2 order-4">
+            <button type="button" class="inline-flex items-center p-2 text-gray-700">
+              <span class="sr-only">Open navigation menu</span>
+              <img class="h-8 w-8" src="images/icons/mobile-menu.svg" alt="menu icon">
+            </button>
+          </div>
+  
+          <!-- Desktop Links -->
+          <div class="hidden lg:flex lg:gap-3 lg:flex-1">
+            <a href="./index.html" class="font-normal text-gray-900 py-3 px-4 rounded hover:bg-lightGray">Home</a>
+            <a href="./courses.html" class="font-normal text-gray-900 py-3 px-4 rounded hover:bg-lightGray">Courses</a>
+            <a href="./about.html" class="font-normal text-gray-900 py-3 px-4 rounded hover:bg-lightGray">About Us</a>
+            <a href="./pricing.html" class="font-normal text-gray-900 py-3 px-4 rounded hover:bg-lightGray">Pricing</a>
+            <a href="./contact.html" class="font-normal text-gray-900 py-3 px-4 rounded hover:bg-lightGray">Contact</a>
+          </div>
+  
+          <!-- Login/Sign Up -->
+          <div class="flex justify-end gap-1 lg:flex-grow-0">
+            <a href="./signup.html" class="py-2 px-3 text-sm md:py-3 md:px-6 lg:text-base rounded">Sign Up</a>
+            <Login style="background-color: orange;" href="./login.html" class="py-2 px-3 text-sm md:py-3 md:px-6 lg:text-base rounded bg-Orange text-white">Login</a>
+          </div>
+        </nav>
+  
+        <!-- Mobile Navigation Menu -->
+        <div class="lg:hidden hidden" role="dialog" aria-modal="true">
+          <!-- Overlay Background -->
+          <div class="fixed inset-0 z-50"></div>
+          <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div class="flex items-center justify-between">
+              <a href="./index.html" class="p-1.5">
+                <span class="sr-only">Skill Bridge Logo</span>
+                <img class="h-8 w-auto" src="images/icons/Logo.svg" alt="logo">
+              </a>
+              <button type="button" class="p-2 text-gray-700">
+                <span class="sr-only">Close menu</span>
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+  
+            <!-- Menu Links -->
+            <div class="mt-6 flow-root">
+              <div class="-my-6 divide-y divide-gray-500/10">
+                <div class="space-y-2 py-6">
+                  <a href="./index.html" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Home</a>
+                  <a href="./courses.html" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Courses</a>
+                  <a href="./about.html" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">About Us</a>
+                  <a href="./pricing.html" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Pricing</a>
+                  <a href="./contact.html" class="block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- intro Section -->
+<div class="text-center py-20">
+    <div style="background-color: antiquewhite; padding-right: 40px;"
+      class="relative bg-plainWhite flex items-center gap-3 py-4 px-5 pr-7 pl-4 rounded-lg border border-grayLight w-max mx-auto">
+      
+      <span class="w-14 h-14 rounded-lg bg-accentOrange flex items-center justify-center">
+        <img class="w-[26px] h-[26px]" src="images/images/energy-image.png" alt="power-icon">
+      </span>
+      <h1 class="text-lg md:text-[34px] font-bold">
+        <span style="color: orange;" class="text-primaryOrange">Unlock</span> Your Creative Potential
+      </h1>
+    </div>
+  
+    <h4 style="font-size: 22px;" class="font-normal text-[22px] md:text-[26px] mt-6">
+      with Online Design and Development Courses.
+    </h4>
+    <p style="color: rgb(36,36 ,36 ); font-size: 18px;" class="mt-3 text-darkGray text-[rgb(36,36,36)] sm:text-lg leading-8">
+      Learn from Industry Experts and Enhance Your Skills.
+    </p>
+    <div class="mt-10 flex items-center justify-center gap-5">
+      <a style="background-color: orange;" href="./courses.html"
+        class="rounded-lg bg-primaryOrange py-2 px-5 text-md md:py-3 md:px-6 lg:text-lg font-bold text-white shadow-md hover:bg-primaryOrange/90">Browse
+        Courses</a>
+      <a style="background-color: antiquewhite;" href="./pricing.html"
+        class="py-2 px-5 text-md md:py-3 md:px-6 lg:text-lg font-medium text-grayDark bg-plainWhite rounded-lg">Check
+        Pricing</a>
+    </div>
+  </div>
+
+
+ <!-- stockholder Section -->
+<div class="stockholder-section owl-carousel">
+    <div class="logo-item">
+      <img src="images/icons/zapier.svg" alt="zapier logo">
+    </div>
+    <div class="logo-item">
+      <img src="images/icons/spotify.svg" alt="spotify logo">
+    </div>
+    <div class="logo-item">
+      <img src="images/icons/zoom.svg" alt="zoom logo">
+    </div>
+    <div class="logo-item">
+      <img src="images/icons/amazon.svg" alt="amazon logo">
+    </div>
+    <div class="logo-item">
+      <img src="images/icons/adobe.svg" alt="adobe logo">
+    </div>
+    <div class="logo-item">
+      <img src="images/icons/notion.svg" alt="notion logo">
+    </div>
+    <div class="logo-item">
+      <img src="images/icons/netflix.svg" alt="netflix logo">
+    </div>
+  </div>
+
+<div class="container">
+      <!-- banner Section -->
+<div  class="video-container w-full relative rounded-lg cursor-pointer" onclick="startVideo()">
+
+    <img class="thumbnail-image w-full" src="images/images/home-banner.png" alt="video thumbnail">
+
+    <div class="overlay bg-[rgba(0,0,0,0.2)] w-full h-full absolute top-0 left-0 z-20 flex items-center justify-center">
+        <span class="play-button flex items-center justify-center w-[72px] h-[72px] bg-[rgba(255,255,255,0.2)] rounded-full border-[6px] border-[rgba(255,255,255,0.3)]">
+            <img class="play-icon w-[44px] h-[44px]" src="images/icons/play.svg" alt="play">
+        </span>
+    </div>
+
+   
+</div>
+
+</div>
+
+    <div class="container">
+        <!-- Advantages Section -->
+<div style="margin-top: 30px;" id="advantages" class="container my-[50px] lg:my-[100px]">
+    <div class="mb-[40px] lg:mb-[60px] 2xl:mb-[80px]">
+        <h2 class="text-[28px] lg:text-[38px] 2xl:text-[23px] font-bold">Our Advantages</h2>
+        <div class="flex flex-col items-start md:flex-row md:items-center justify-between gap-5">
+            <p class="w-full md:w-[60%] text-sm lg:text-base 2xl:text-lg text-[rgba(89,89,90,1)]">
+                Discover the benefits of our services. We strive to provide exceptional value and quality, ensuring
+                that your experience is seamless and rewarding. Join us to explore new opportunities and advantages.
+            </p>
+            <a style="text-align: center;" href="#"
+               class="inline-block w-fit py-3 px-4 text-sm md:py-3 md:px-6 lg:text-base font-semibold text-gray-900 bg-white rounded-md">
+                View All
+            </a>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <div class="container">
+        <!-- Benefits Section -->
+<div id="benefits" class="container mx-auto my-12 lg:my-24">
+   
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="benefit-card flex flex-col gap-4 bg-white p-6 rounded-md shadow-md">
+            <span style="font-size: 3.5rem;" class="text-6xl lg:text-7xl 2xl:text-8xl font-bold text-right">01</span>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Adaptable Learning Times</h3>
+                <p class="text-gray-600 leading-snug">Align your studies with your existing responsibilities for a seamless experience.</p>
+            </div>
+            <a href="#"
+               class="flex items-center justify-center w-14 h-14 bg-gray-200 border rounded-md">
+                <img class="w-6 h-6" src="images/icons/orange-right-top-arrow.svg" alt="arrow">
+            </a>
+        </div>
+        <div class="benefit-card flex flex-col gap-4 bg-white p-6 rounded-md shadow-md">
+            <span style="font-size: 3.5rem;" class="text-6xl lg:text-7xl 2xl:text-8xl font-bold text-right">02</span>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Adaptable Learning Times</h3>
+                <p class="text-gray-600 leading-snug">Align your studies with your existing responsibilities for a seamless experience.</p>
+            </div>
+            <a href="#"
+               class="flex items-center justify-center w-14 h-14 bg-gray-200 border rounded-md">
+                <img class="w-6 h-6" src="images/icons/orange-right-top-arrow.svg" alt="arrow">
+            </a>
+        </div>
+        <div class="benefit-card flex flex-col gap-4 bg-white p-6 rounded-md shadow-md">
+            <span style="font-size: 3.5rem;" class="text-6xl lg:text-7xl 2xl:text-8xl font-bold text-right">03</span>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Adaptable Learning Times</h3>
+                <p class="text-gray-600 leading-snug">Align your studies with your existing responsibilities for a seamless experience.</p>
+            </div>
+            <a href="#"
+               class="flex items-center justify-center w-14 h-14 bg-gray-200 border rounded-md">
+                <img class="w-6 h-6" src="images/icons/orange-right-top-arrow.svg" alt="arrow">
+            </a>
+        </div>
+        <div class="benefit-card flex flex-col gap-4 bg-white p-6 rounded-md shadow-md">
+            <span style="font-size: 3.5rem;" class="text-6xl lg:text-7xl 2xl:text-8xl font-bold text-right">04</span>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Adaptable Learning Times</h3>
+                <p class="text-gray-600 leading-snug">Align your studies with your existing responsibilities for a seamless experience.</p>
+            </div>
+            <a href="#"
+               class="flex items-center justify-center w-14 h-14 bg-gray-200 border rounded-md">
+                <img class="w-6 h-6" src="images/icons/orange-right-top-arrow.svg" alt="arrow">
+            </a>
+        </div>
+        <div class="benefit-card flex flex-col gap-4 bg-white p-6 rounded-md shadow-md">
+            <span style="font-size: 3.5rem;" class="text-6xl lg:text-7xl 2xl:text-8xl font-bold text-right">05</span>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Adaptable Learning Times</h3>
+                <p class="text-gray-600 leading-snug">Align your studies with your existing responsibilities for a seamless experience.</p>
+            </div>
+            <a href="#"
+               class="flex items-center justify-center w-14 h-14 bg-gray-200 border rounded-md">
+                <img class="w-6 h-6" src="images/icons/orange-right-top-arrow.svg" alt="arrow">
+            </a>
+        </div>
+        <div class="benefit-card flex flex-col gap-4 bg-white p-6 rounded-md shadow-md">
+            <span style="font-size: 3.5rem;" class="text-6xl lg:text-7xl 2xl:text-8xl font-bold text-right">06</span>
+            <div>
+                <h3 class="text-xl font-semibold mb-2">Adaptable Learning Times</h3>
+                <p class="text-gray-600 leading-snug">Align your studies with your existing responsibilities for a seamless experience.</p>
+            </div>
+            <a href="#"
+               class="flex items-center justify-center w-14 h-14 bg-gray-200 border rounded-md">
+                <img class="w-6 h-6" src="images/icons/orange-right-top-arrow.svg" alt="arrow">
+            </a>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Course Section -->
+<div style="margin-top: 70px;" id="courses" class="container">
+    <div class="mb-[40px] lg:mb-[60px] 2xl:mb-[80px]">
+      <h4 class="text-[28px] lg:text-[38px] 2xl:text-[30px] font-semibold">Explore Our Courses</h4>
+      <div class="flex flex-col items-start md:flex-row md:items-center justify-between gap-5">
+        <p class="w-full md:w-[60%] text-sm lg:text-base 2xl:text-lg text-[rgba(89,89,90,1)]">
+          Discover a variety of courses tailored for different skill levels. Join us to enhance your knowledge and skills in various domains.
+        </p>
+        <a style="background-color: antiquewhite;" href="#"
+           class="inline-block w-fit py-3 px-4 text-sm md:py-3 md:px-6 lg:text-base font-medium text-gray-900 bg-white rounded-md text-center">
+          See All Courses
+        </a>
+      </div>
+    </div>
+  
+    <div class="grid grid-cols-[repeat(auto-fit,minmax(400px,1fr))] lg:grid-cols-2 [@media(min-width:1900px)]:grid-cols-3 gap-4 mx-auto">
+  
+      <div class="flex flex-col items-start justify-between max-w-[760px] gap-6 bg-white rounded-md border border-[rgba(241,241,243,1)] p-8">
+        <img src="images/images/courses-02.png" alt="Course 1">
+  
+        <div class="flex items-center justify-between gap-x-4 w-full">
+          <div class="flex items-center gap-2">
+            <span class="py-2 px-4 text-[rgba(76,76,77,1)] border border-[rgba(241,241,243,1)] rounded-md">10 Weeks</span>
+            <span class="py-2 px-4 text-[rgba(76,76,77,1)] border border-[rgba(241,241,243,1)] rounded-md">Beginner</span>
+          </div>
+          <h4 class="font-medium text-lg">Instructor:  ahmed qannan</h4>
+        </div>
+  
+        <div class="group relative">
+          <h3 class="my-3 text-2xl font-semibold text-[rgba(38,38,38,1)]">Foundations of Web Design</h3>
+          <p class="text-[rgba(76,76,77,1)]">
+            Understand the basics of web design, focusing on HTML, CSS, and responsive techniques to build stunning websites.
+          </p>
+        </div>
+  
+        <a href="#" class="bg-lightGray hover:bg-[#ebebebcb] block rounded-md py-4 w-full text-center font-medium">Enroll Now</a>
+      </div>
+  
+      <div class="flex flex-col items-start justify-between max-w-[760px] gap-6 bg-white rounded-md border border-[rgba(241,241,243,1)] p-8">
+        <img src="images/images/courses-03.png" alt="Course 2">
+  
+        <div class="flex items-center justify-between gap-x-4 w-full">
+          <div class="flex items-center gap-2">
+            <span class="py-2 px-4 text-[rgba(76,76,77,1)] border border-[rgba(241,241,243,1)] rounded-md">2 Weeks</span>
+            <span class="py-2 px-4 text-[rgba(76,76,77,1)] border border-[rgba(241,241,243,1)] rounded-md">Intermediate</span>
+          </div>
+          <h4 class="font-medium text-lg">Instructor: ahmed qannan</h4>
+        </div>
+  
+        <div class="group relative">
+          <h3 class="my-3 text-2xl font-semibold text-[rgba(38,38,38,1)]">UI/UX Mastery</h3>
+          <p class="text-[rgba(76,76,77,1)]">
+            Learn to design user interfaces that provide excellent user experiences through effective wireframing and prototyping.
+          </p>
+        </div>
+  
+        <a href="#" class="bg-lightGray hover:bg-[#ebebebcb] block rounded-md py-4 w-full text-center font-medium">Enroll Now</a>
+      </div>
+  
+      <div class="flex flex-col items-start justify-between max-w-[760px] gap-6 bg-white rounded-md border border-[rgba(241,241,243,1)] p-8">
+        <img src="images/images/mobile.png" alt="Course 3">
+  
+        <div class="flex items-center justify-between gap-x-4 w-full">
+          <div class="flex items-center gap-2">
+            <span class="py-2 px-4 text-[rgba(76,76,77,1)] border border-[rgba(241,241,243,1)] rounded-md">8 Weeks</span>
+            <span class="py-2 px-4 text-[rgba(76,76,77,1)] border border-[rgba(241,241,243,1)] rounded-md">Intermediate</span>
+          </div>
+          <h4 class="font-medium text-lg">Instructor: ahmedqannan</h4>
+        </div>
+  
+        <div class="group relative">
+          <h3 class="my-3 text-2xl font-semibold text-[rgba(38,38,38,1)]">Mobile Development Essentials</h3>
+          <p class="text-[rgba(76,76,77,1)]">
+            Get hands-on experience with mobile app development using popular frameworks like Swift for iOS and Kotlin for Android.
+          </p>
+        </div>
+  
+        <a href="#" class="bg-lightGray hover:bg-[#ebebebcb] block rounded-md py-4 w-full text-center font-medium">Enroll Now</a>
+      </div>
+  
+      <div class="flex flex-col items-start justify-between max-w-[760px] gap-6 bg-white rounded-md border border-[rgba(241,241,243,1)] p-8">
+        <img src="images/images/Graphic (2).png" alt="Course 4">
+  
+        <div class="flex items-center justify-between gap-x-4 w-full">
+          <div class="flex items-center gap-2">
+            <span class="py-2 px-4 text-[rgba(76,76,77,1)] border border-[rgba(241,241,243,1)] rounded-md">12 Weeks</span>
+            <span class="py-2 px-4 text-[rgba(76,76,77,1)] border border-[rgba(241,241,243,1)] rounded-md">Beginner</span>
+          </div>
+          <h4 class="font-medium text-lg">Instructor: ahmedqannan</h4>
+        </div>
+  
+        <div class="group relative">
+          <h3 class="my-3 text-2xl font-semibold text-[rgba(38,38,38,1)]">Graphic Design Basics</h3>
+          <p class="text-[rgba(76,76,77,1)]">
+            Explore graphic design fundamentals, including typography, color schemes, and effective layout techniques for digital and print media.
+          </p>
+        </div>
+  
+        <a href="#" class="bg-lightGray hover:bg-[#ebebebcb] block rounded-md py-4 w-full text-center font-medium">Enroll Now</a>
+      </div>
+  
+      <div class="flex flex-col items-start justify-between max-w-[760px] gap-6 bg-white rounded-md border border-[rgba(241,241,243,1)] p-8">
+        <img src="images/images/home-courses-5.png" alt="Course 5">
+  
+        <div class="flex items-center justify-between gap-x-4 w-full">
+          <div class="flex items-center gap-2">
+            <span class="py-2 px-4 text-[rgba(76,76,77,1)] border border-[rgba(241,241,243,1)] rounded-md">10 Weeks</span>
+            <span class="py-2 px-4 text-[rgba(76,76,77,1)] border border-[rgba(241,241,243,1)] rounded-md">Intermediate</span>
+          </div>
+          <h4 class="font-medium text-lg">Instructor: ahmed qannan</h4>
+        </div>
+  
+        <div class="group relative">
+          <h3 class="my-3 text-2xl font-semibold text-[rgba(38,38,38,1)]">Front-End Development Proficiency</h3>
+          <p class="text-[rgba(76,76,77,1)]">
+            Achieve mastery in front-end development. Delve into HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React to create engaging websites.
+          </p>
+        </div>
+  
+        <a href="#" class="bg-lightGray hover:bg-[#ebebebcb] block rounded-md py-4 w-full text-center font-medium">Enroll Now</a>
+      </div>
+  
+      <div class="flex flex-col items-start justify-between max-w-[760px] gap-6 bg-white rounded-md border border-[rgba(241,241,243,1)] p-8">
+        <img src="images/images/home-courses-6.png" alt="Course 6">
+  
+        <div class="flex items-center justify-between gap-x-4 w-full">
+          <div class="flex items-center gap-2">
+            <span class="py-2 px-4 text-[rgba(76,76,77,1)] border border-[rgba(241,241,243,1)] rounded-md">8 Weeks</span>
+            <span class="py-2 px-4 text-[rgba(76,76,77,1)] border border-[rgba(241,241,243,1)] rounded-md">Advanced</span>
+          </div>
+          <h4 class="font-medium text-lg">Instructor: ahmedqannan</h4>
+        </div>
+  
+        <div class="group relative">
+          <h3 class="my-3 text-2xl font-semibold text-[rgba(38,38,38,1)]">Data Science and Analytics</h3>
+          <p class="text-[rgba(76,76,77,1)]">
+            Understand data manipulation and analysis techniques using Python and R. Gain insights from data and present findings effectively.
+          </p>
+        </div>
+  
+        <a href="#" class="bg-lightGray hover:bg-[#ebebebcb] block rounded-md py-4 w-full text-center font-medium">Enroll Now</a>
+      </div>
+  
+    </div>
+  </div>
+
+  <!-- Clients Section -->
+<div style="margin-top: 70px;" id="testimonials" class="container mx-auto my-12 lg:my-24">
+
+    <div class="mb-10 lg:mb-16">
+      <h3 class="text-2xl lg:text-4xl font-semibold">Our Testimonials</h3>
+      <div class="flex flex-col items-start md:flex-row md:items-center justify-between gap-4">
+        <p class="w-full md:w-2/3 text-sm lg:text-base text-gray-700">
+          Discover what our students have to say about their learning experiences with us. 
+          We are committed to providing quality education that inspires and empowers.
+        </p>
+        <a href="#"
+          class="inline-block w-fit py-2 px-4 text-sm md:py-3 md:px-5 lg:text-base font-medium text-white bg-blue-600 rounded-md">
+          Explore More
+        </a>
+      </div>
+    </div>
+  
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+  
+      <div class="bg-white shadow-md rounded-lg border border-gray-200">
+        <div class="p-6">
+          <p class="text-gray-800 text-sm md:text-base mb-4">
+            This web development course provided an excellent foundation. The instructors were incredibly knowledgeable and the interactive sessions were very engaging. Highly recommended!
+          </p>
+        </div>
+        <div class="flex items-center justify-between px-6 py-4 bg-gray-100 border-t border-gray-300">
+          <div class="flex items-center gap-3">
+            <img class="w-12 h-12 rounded-full" src="images/images/testimonial-1.png" alt="Sarah L">
+            <h4 class="font-semibold">Sarah L.</h4>
+          </div>
+          <a href="#"
+            class="py-2 px-4 text-sm font-medium text-blue-600 bg-gray-200 rounded-md">
+            Read Full Story
+          </a>
+        </div>
+      </div>
+  
+      <div class="bg-white shadow-md rounded-lg border border-gray-200">
+        <div class="p-6">
+          <p class="text-gray-800 text-sm md:text-base mb-4">
+            The UI/UX design course surpassed my expectations! The instructor's insights and practical exercises really honed my design abilities. I feel so much more confident now. Thank you!
+          </p>
+        </div>
+        <div class="flex items-center justify-between px-6 py-4 bg-gray-100 border-t border-gray-300">
+          <div class="flex items-center gap-3">
+            <img class="w-12 h-12 rounded-full" src="images/images/testimonial-2.png" alt="Jason M">
+            <h4 class="font-semibold">Jason M.</h4>
+          </div>
+          <a href="#"
+            class="py-2 px-4 text-sm font-medium text-blue-600 bg-gray-200 rounded-md">
+            Read Full Story
+          </a>
+        </div>
+      </div>
+  
+      <div class="bg-white shadow-md rounded-lg border border-gray-200">
+        <div class="p-6">
+          <p class="text-gray-800 text-sm md:text-base mb-4">
+            The mobile app development course was incredible! The tutorials and practical projects made learning easy. Now I'm confident in creating my own apps. Amazing experience!
+          </p>
+        </div>
+        <div class="flex items-center justify-between px-6 py-4 bg-gray-100 border-t border-gray-300">
+          <div class="flex items-center gap-3">
+            <img class="w-12 h-12 rounded-full" src="images/images/testimonial-3.png" alt="Emily R">
+            <h4 class="font-semibold">Emily R.</h4>
+          </div>
+          <a href="#"
+            class="py-2 px-4 text-sm font-medium text-blue-600 bg-gray-200 rounded-md">
+            Read Full Story
+          </a>
+        </div>
+      </div>
+  
+      <div class="bg-white shadow-md rounded-lg border border-gray-200">
+        <div class="p-6">
+          <p class="text-gray-800 text-sm md:text-base mb-4">
+            I started as a beginner in the graphic design course, and it was the perfect introduction. The instructor's feedback was invaluable in improving my skills. Truly grateful for this opportunity!
+          </p>
+        </div>
+        <div class="flex items-center justify-between px-6 py-4 bg-gray-100 border-t border-gray-300">
+          <div class="flex items-center gap-3">
+            <img class="w-12 h-12 rounded-full" src="images/images/testimonial-4.png" alt="Michael K">
+            <h4 class="font-semibold">Michael K.</h4>
+          </div>
+          <a href="#"
+            class="py-2 px-4 text-sm font-medium text-blue-600 bg-gray-200 rounded-md">
+            Read Full Story
+          </a>
+        </div>
+      </div>
+  
+    </div>
+  
+  </div>
+
+
+   <!-- Pricing Section -->
+  <div style="margin-top: 70px;" class="wrapper">
+
+    <div class="mb-[40px] lg:mb-[60px] 2xl:mb-[80px]">
+      <h3 class="text-[28px] lg-text-[38px] 2xl:text-[48px] font-semibold">Our Pricing</h3>
+      <div class="flex flex-col items-start md:flex-row md:items-center justify-between gap-5">
+        <p class="w-full md:w-[60%] text-sm lg:text-base 2xl:text-lg text-[rgba(89,89,90,1)]">
+          Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit
+          dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.
+        </p>
+        <div class="flex items-center p-3 rounded-md bg-white self-center">
+          <button id="monthly-pricing-btn"
+            class="inline-block w-fit py-2 px-3 text-sm md:py-3 md:px-6 lg:text-base font-medium text-white bg-mainOrange rounded-md">
+            Monthly
+          </button>
+          <button id="yearly-pricing-btn"
+            class="inline-block w-fit py-2 px-3 text-sm md:py-3 md:px-6 lg:text-base font-medium text-[rgba(76,76,77,1)] bg-white rounded-md">
+            Yearly
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="grid grid-cols-1 items-center justify-center lg:grid-cols-2 gap-20 md:gap-8 bg-white rounded-2xl p-[80px] md:p-[30px] w-full max-w-[2000px] mx-auto">
+
+      <div class="monthly-pricing-card relative rounded-3xl bg-[rgba(252,252,253,1)] p-4 md:p-10 w-full max-w-[1000px]">
+        <span
+          class="bg-[rgba(255,249,240,1)] w-full rounded-md flex items-center justify-center py-[12px] px-1 mb-12 border border-[rgba(255,234,204,1)]">
+          <p class="text-lg font-medium">Free Plan</p>
+        </span>
+
+        <p class="mt-4 flex items-baseline justify-center gap-x-2 ">
+          <span class="text-7xl font-semibold tracking-tight">$0</span>
+          <span class="text-base text-gray-400">/month</span>
+        </p>
+
+        <div class="bg-white rounded-md overflow-hidden pt-10 text-center mt-12">
+          <p class="text-lg font-medium text-[rgba(38,38,38,1)]">Available Features</p>
+
+          <ul role="list" class="space-y-3 text-sm/6 text-[rgba(76,76,77,1)] mt-5 lg:px-8">
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Access to selected free courses.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Limited course materials and resources.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Basic community support.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              No certification upon completion.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Ad-supported platform.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.28033 5.21967C5.98744 4.92678 5.51256 4.92678 5.21967 5.21967C4.92678 5.51256 4.92678 5.98744 5.21967 6.28033L8.93934 10L5.21967 13.7197C4.92678 14.0126 4.92678 14.4874 5.21967 14.7803C5.51256 15.0732 5.98744 15.0732 6.28033 14.7803L10 11.0607L13.7197 14.7803C14.0126 15.0732 14.4874 15.0732 14.7803 14.7803C15.0732 14.4874 15.0732 14.0126 14.7803 13.7197L11.0607 10L14.7803 6.28033C15.0732 5.98744 15.0732 5.51256 14.7803 5.21967C14.4874 4.92678 14.0126 4.92678 13.7197 5.21967L10 8.93934L6.28033 5.21967Z"
+                    fill="#262626" />
+                </svg>
+              </span>
+              Access to exclusive Pro Plan community forums.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.28033 5.21967C5.98744 4.92678 5.51256 4.92678 5.21967 5.21967C4.92678 5.51256 4.92678 5.98744 5.21967 6.28033L8.93934 10L5.21967 13.7197C4.92678 14.0126 4.92678 14.4874 5.21967 14.7803C5.51256 15.0732 5.98744 15.0732 6.28033 14.7803L10 11.0607L13.7197 14.7803C14.0126 15.0732 14.4874 15.0732 14.7803 14.7803C15.0732 14.4874 15.0732 14.0126 14.7803 13.7197L11.0607 10L14.7803 6.28033C15.0732 5.98744 15.0732 5.51256 14.7803 5.21967C14.4874 4.92678 14.0126 4.92678 13.7197 5.21967L10 8.93934L6.28033 5.21967Z"
+                    fill="#262626" />
+                </svg>
+              </span>
+              Early access to new courses and updates.
+            </li>
+
+          </ul>
+          <a href="#" aria-describedby="tier-enterprise"
+            class="mt-8 block bg-mainOrange px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:opacity-75 sm:mt-10">
+            Get Started</a>
+        </div>
+      </div>
+
+      <div class="monthly-pricing-card relative rounded-3xl bg-[rgba(252,252,253,1)] p-4 md:p-10 w-full max-w-[1000px]">
+        <span style="background-color: antiquewhite;"
+          class="bg-[rgba(255,249,240,1)] w-full rounded-md flex items-center justify-center py-[12px] px-1 mb-12 border border-[rgba(255,234,204,1)]">
+          <p  class="text-lg font-medium">Pro Plan</p>
+        </span>
+
+        <p class="mt-4 flex items-baseline justify-center gap-x-2 ">
+          <span class="text-7xl font-semibold tracking-tight">$79</span>
+          <span class="text-base text-gray-400">/month</span>
+        </p>
+
+        <div class="bg-white rounded-md overflow-hidden pt-10 text-center mt-12">
+          <p class="text-lg font-medium text-[rgba(38,38,38,1)]">Available Features</p>
+
+          <ul role="list" class="space-y-3 text-sm/6 text-[rgba(76,76,77,1)] mt-5 lg:px-8">
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Unlimited access to all courses.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Unlimited course materials and resources.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Priority support from instructors.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Course completion certificates.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Ad-free experience.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Access to exclusive Pro Plan community forums.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Early access to new courses and updates.
+            </li>
+          </ul>
+          <a href="#" aria-describedby="tier-enterprise"
+            class="mt-8 block bg-mainOrange px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:opacity-75 sm:mt-10">
+            Get Started</a>
+        </div>
+      </div>
+
+
+      <div
+        class="yearly-pricing-card hidden relative rounded-3xl bg-[rgba(252,252,253,1)] p-4 md:p-10 w-full max-w-[1000px]">
+        <span
+          class="bg-[rgba(255,249,240,1)] w-full rounded-md flex items-center justify-center py-[12px] px-1 mb-12 border border-[rgba(255,234,204,1)]">
+          <p class="text-lg font-medium">Free Plan</p>
+        </span>
+
+        <p class="mt-4 flex items-baseline justify-center gap-x-2 ">
+          <span  class="text-7xl font-semibold tracking-tight">$0</span>
+          <span class="text-base text-gray-400">/year</span>
+        </p>
+
+        <div class="bg-white rounded-md overflow-hidden pt-10 text-center mt-12">
+          <p class="text-lg font-medium text-[rgba(38,38,38,1)]">Available Features</p>
+
+          <ul role="list" class="space-y-3 text-sm/6 text-[rgba(76,76,77,1)] mt-5 lg:px-8">
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Access to selected free courses.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Limited course materials and resources.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Basic community support.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              No certification upon completion.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Ad-supported platform.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.28033 5.21967C5.98744 4.92678 5.51256 4.92678 5.21967 5.21967C4.92678 5.51256 4.92678 5.98744 5.21967 6.28033L8.93934 10L5.21967 13.7197C4.92678 14.0126 4.92678 14.4874 5.21967 14.7803C5.51256 15.0732 5.98744 15.0732 6.28033 14.7803L10 11.0607L13.7197 14.7803C14.0126 15.0732 14.4874 15.0732 14.7803 14.7803C15.0732 14.4874 15.0732 14.0126 14.7803 13.7197L11.0607 10L14.7803 6.28033C15.0732 5.98744 15.0732 5.51256 14.7803 5.21967C14.4874 4.92678 14.0126 4.92678 13.7197 5.21967L10 8.93934L6.28033 5.21967Z"
+                    fill="#262626" />
+                </svg>
+              </span>
+              Access to exclusive Pro Plan community forums.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.28033 5.21967C5.98744 4.92678 5.51256 4.92678 5.21967 5.21967C4.92678 5.51256 4.92678 5.98744 5.21967 6.28033L8.93934 10L5.21967 13.7197C4.92678 14.0126 4.92678 14.4874 5.21967 14.7803C5.51256 15.0732 5.98744 15.0732 6.28033 14.7803L10 11.0607L13.7197 14.7803C14.0126 15.0732 14.4874 15.0732 14.7803 14.7803C15.0732 14.4874 15.0732 14.0126 14.7803 13.7197L11.0607 10L14.7803 6.28033C15.0732 5.98744 15.0732 5.51256 14.7803 5.21967C14.4874 4.92678 14.0126 4.92678 13.7197 5.21967L10 8.93934L6.28033 5.21967Z"
+                    fill="#262626" />
+                </svg>
+              </span>
+              Early access to new courses and updates.
+            </li>
+
+          </ul>
+          <a href="#" aria-describedby="tier-enterprise"
+            class="mt-8 block bg-mainOrange px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:opacity-75 sm:mt-10">
+            Get Started</a>
+        </div>
+      </div>
+
+      <div
+        class="yearly-pricing-card hidden relative rounded-3xl bg-[rgba(252,252,253,1)] p-4 md:p-10 w-full max-w-[1000px]">
+        <span
+          class="bg-[rgba(255,249,240,1)] w-full rounded-md flex items-center justify-center py-[12px] px-1 mb-12 border border-[rgba(255,234,204,1)]">
+          <p class="text-lg font-medium">Pro Plan</p>
+        </span>
+
+        <p class="mt-4 flex items-baseline justify-center gap-x-2 ">
+          <span class="text-7xl font-semibold tracking-tight">$799</span>
+          <span class="text-base text-gray-400">/year</span>
+        </p>
+
+        <div class="bg-white rounded-md overflow-hidden pt-10 text-center mt-12">
+          <p class="text-lg font-medium text-[rgba(38,38,38,1)]">Available Features</p>
+
+          <ul role="list" class="space-y-3 text-sm/6 text-[rgba(76,76,77,1)] mt-5 lg:px-8">
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Unlimited access to all courses.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Unlimited course materials and resources.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Priority support from instructors.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Course completion certificates.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Ad-free experience.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Access to exclusive Pro Plan community forums.
+            </li>
+
+            <li class="flex items-center gap-x-3 border border-[rgba(241,241,243,1)] p-3 rounded-md">
+              <span
+                class="min-w-8 min-h-8 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+                <svg class="h-5 w-5 flex-none text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
+                  data-slot="icon">
+                  <path fill-rule="evenodd"
+                    d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+              Early access to new courses and updates.
+            </li>
+          </ul>
+          <a href="#" aria-describedby="tier-enterprise"
+            class="mt-8 block bg-mainOrange px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:opacity-75 sm:mt-10">
+            Get Started</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- FAQs Section -->
+<div id="faq"
+class="wrapper my-[50px] lg:my-[100px] bg-white rounded-xl md:p-[100px] flex flex-col lg:flex-row justify-between gap-14">
+
+<!-- Left Column -->
+<div class="w-full lg:w-[61%]">
+  <h3 class="text-[28px] lg-text-[38px] 2xl:text-[48px] font-semibold leading-tight mb-2">
+    Frequently <br class="hidden lg:block"> Asked Questions
+  </h3>
+  <div class="flex flex-col items-start justify-between gap-5">
+    <p class="w-full text-sm lg:text-base 2xl:text-lg text-[rgba(89,89,90,1)] mb-8">
+      Still have questions? Contact our Team via <a href="mailto:support@skillbridge.com" class="text-blue-500">support@skillbridge.com</a>.
+    </p>
+    <a href="#"
+      class="inline-block w-fit py-3 px-4 text-sm md:py-3 md:px-6 lg:text-base font-medium text-gray-900 rounded-md border border-[rgba(241,241,243,1)]">
+      See All FAQ's
+    </a>
+  </div>
+</div>
+
+<!-- Right Column with Accordion -->
+<div class="w-full">
+  <div x-data="{ open: false }" class="border border-[rgba(241,241,243,1)] py-4 px-6 mb-6 rounded-md">
+    <button @click="open = !open" :class="{'border-b border-[rgba(241, 241, 243, 1)] pb-6': open}"
+      class="flex items-center justify-between w-full text-left">
+      <span class="text-lg font-medium text-[rgba(51,51,51,1)]">Can I enroll in multiple courses at once?</span>
+      <span class="min-w-10 min-h-10 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+        <svg :class="{'rotate-45': open}" class="w-7 h-7 transition-transform transform" width="28" height="28"
+          viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7 14H14M21 14H14M14 14V7M14 14V21" stroke="#262626" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </span>
+    </button>
+    <div x-show="open" x-transition class="mt-8 text-gray-600">
+      <p>Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.</p>
+    </div>
+    <a href="#" x-show="open" x-transition
+      class="mt-8 p-4 bg-[rgba(247,247,248,1)] border border-[rgba(241, 241, 243, 1)] rounded-md flex items-center justify-between">
+      <p class="font-medium text-[rgba(51,51,51,1)]">Enrollment Process for Different Courses</p>
+      <span class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.99967 14H21.583M21.583 14L14.583 7M21.583 14L14.583 21" stroke="#4C4C4C" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </span>
+    </a>
+  </div>
+
+  <!-- Repeat for other questions -->
+  <div x-data="{ open: false }" class="border border-[rgba(241,241,243,1)] py-4 px-6 mb-6 rounded-md">
+    <button @click="open = !open" :class="{'border-b border-[rgba(241, 241, 243, 1)] pb-6': open}"
+      class="flex items-center justify-between w-full text-left">
+      <span class="text-lg font-medium text-[rgba(51,51,51,1)]">What kind of support can I expect from instructors?</span>
+      <span class="min-w-10 min-h-10 flex items-center justify-center bg-lightOrange rounded-md border border-[rgba(241,241,243,1)]">
+        <svg :class="{'rotate-45': open}" class="w-7 h-7 transition-transform transform" width="28" height="28"
+          viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7 14H14M21 14H14M14 14V7M14 14V21" stroke="#262626" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </span>
+    </button>
+    <div x-show="open" x-transition class="mt-8 text-gray-600">
+      <p>Our instructors offer continuous support and guidance via course discussion forums, emails, and direct Q&A sessions.</p>
+    </div>
+    <a href="#" x-show="open" x-transition
+      class="mt-8 p-4 bg-[rgba(247,247,248,1)] border border-[rgba(241, 241, 243, 1)] rounded-md flex items-center justify-between">
+      <p class="font-medium text-[rgba(51,51,51,1)]">Instructor Support Details</p>
+      <span class="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.99967 14H21.583M21.583 14L14.583 7M21.583 14L14.583 21" stroke="#4C4C4C" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </span>
+    </a>
+  </div>
+
+  <!-- Additional questions here -->
+
+</div>
+</div>
+
+
+<!-- Footer Section -->
+<footer class="pt-24 pb-8 bg-white">
+  <div class="container mx-auto flex flex-wrap gap-12 border-b border-gray-200 mb-10">
+
+    <div class="flex-1">
+      <img class="w-14 h-14 mb-8" src="images/icons/Logo.svg" alt="Logo">
+      <div class="flex flex-col gap-5">
+        <div class="flex items-center gap-3">
+          <img src="images/icons/email.svg" alt="Email">
+          <p class="text-gray-600">hello@skillbridge.com</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <img src="images/icons/phone.svg" alt="Phone">
+          <p class="text-gray-600">+91 91813 23 2309</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <img src="images/icons/location-icon.svg" alt="Location">
+          <p class="text-gray-600">Somewhere in the World</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="min-w-[200px]">
+      <h4 class="text-xl font-semibold mb-3">Navigation</h4>
+      <a href="#benefits" class="block text-gray-600 hover:underline mb-2">Benefits</a>
+      <a href="#courses" class="block text-gray-600 hover:underline mb-2">Our Courses</a>
+      <a href="#testimonials" class="block text-gray-600 hover:underline mb-2">Testimonials</a>
+      <a href="#faq" class="block text-gray-600 hover:underline mb-2">FAQ</a>
+    </div>
+
+    <div class="min-w-[200px]">
+      <h4 class="text-xl font-semibold mb-3">Company Info</h4>
+      <a href="#" class="block text-gray-600 hover:underline mb-2">About Us</a>
+      <a href="#" class="block text-gray-600 hover:underline mb-2">Our Achievements</a>
+      <a href="#" class="block text-gray-600 hover:underline mb-2">Our Goals</a>
+    </div>
+
+    <div class="min-w-[200px]">
+      <h4 class="text-xl font-semibold mb-3">Connect With Us</h4>
+      <div class="flex items-center gap-4">
+        <a href="https://www.facebook.com" class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
+          <img src="images/icons/facebook-icon.svg" alt="Facebook">
+        </a>
+        <a href="https://www.x.com" class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
+          <img src="images/icons/twitter-icon.svg" alt="Twitter">
+        </a>
+        <a href="https://www.linkedin.com" class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
+          <img src="images/icons/linkedin.svg" alt="LinkedIn">
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  
+</footer>
+
+  
+
+    <!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+   <!-- Include Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
