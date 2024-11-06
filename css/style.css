@@ -1,0 +1,88 @@
+.container {
+    width: 85%;
+    margin: auto;
+  }
+
+  @media (max-width: 991px) {
+    .container {
+      width: 100%;
+      padding: 0 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 0 0.5rem;
+    }
+  }
+  .stockholder-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    margin-bottom: 50px;
+    background-color: white;
+    border: 1px solid #f1f1f3;
+    border-radius: 8px;
+
+    margin: 0 auto;
+    
+  }
+  
+  /* العنصر الفردي لكل صورة */
+  .logo-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    border-right: 1px solid #d1d1d5;
+  }
+  
+  /* التحكم بحجم الصور */
+  .logo-item img {
+    max-height: 30px;
+    width: auto;
+  }
+  
+  /* استجابة الحاوية */
+  @media (min-width: 768px) {
+    .logo-item {
+      width: 160px;
+      height: 70px;
+    }
+    .logo-item img {
+      max-height: 32px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .logo-item {
+      width: 200px;
+      height: 80px;
+    }
+    .logo-item img {
+      max-height: 36px;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .logo-item {
+      width: 240px;
+      height: 90px;
+    }
+    .logo-item img {
+      max-height: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .stockholder-carousel {
+      flex-direction: column;
+      align-items: center;
+    }
+    .logo-item {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
